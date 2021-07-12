@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/door.png">
+
+
+    <title>Heya no Imouto - AK Project</title>
+  </head>
+
+  <body>
+
+    <div id="topBar"></div>
+
+    <header>
+      <div id="bg">
+      </div>
+      <div class="header-nav-wrap">
+        <h1 id="logo">
+          <a href="index.html">
+            <img src="img/heyaimo-logo.png" width="200" draggable="false">
+          </a>
+        </h1>
+        <nav class="header-nav">
+         <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="story.html">STORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="world.html">WORLD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="chara01.html">CHARACTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.php">SHOP</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="jumbotron"></div>
+    </header>
+    <main>
+      <section id="movie">
+        <div class="movie-wrap">
+          <h2>
+            <a>MOVIE</a>
+          </h2>
+          <ul class="movie-list-box slick-initialized slick-slider slick-dotted">
+            <div class="slick-list draggable">
+              <div class="slick-track" style="opacity: 1; width: 412px; transform: translate3d(0px, 0px, 0px);">
+                <li class="movie-list slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 412px;">
+                  <a class="youtube-popup-link" href="" tabindex="0">
+                    <img class="Rollover-ttl lzy" alt src="img/movieop.png" width="380" draggable="false" decoding="async">
+                    <img class="Rollover " alt src="img/moviebtn.jpg" width="380" draggable="false" decoding="async">
+                  </a>
+                </li>
+              </div>
+              <ul class="slick-dots" role="tablist">
+                <li class="slick-active" role="presentation">
+                  <button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 pf 1" tabindex="0" aria-selected="true"></button>
+                </li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <div id="newstw-wrap">
+        <section id="news" class="newstw-box">
+          <h2 class="newstw-ttl">
+            <a>NEWS</a>
+          </h2>
+        </section>
+        <section id="twitter" class="newstw-box">
+          <h2 class="newstw-ttl">
+            <a>TWITTER</a>
+              <a class="twitter-timeline" href="https://twitter.com/hakku_me?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </h2>
+        </section>
+      </div>
+    </main>
+    <div id="toppage" style="bottom: 80px; display: block;">
+      <a href="#">
+        <img alt="toppage" src="img/tapetop.png" width="69">
+      </a>
+    </div>
+    <footer id="footer">
+      <div class="footer-inner">
+        <div class="footer-wrap">
+          <nav id="footer-nav">
+            <ul>
+              <li id="footer-ttl" class="footer-nav-list">
+                <a href="#">Home</a>
+              </li>
+              <li id="footer-st" class="footer-nav-list">
+                <a href="story.html">Story</a>
+              </li>
+              <li id="footer-world" class="footer-nav-list">
+                <a href="world.html">World</a>
+              </li>
+              <li id="footer-chara" class="footer-nav-list">
+                <a href="chara01.html">Character</a>
+              </li>
+              <li id="footer-gal" class="footer-nav-list">
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li id="footer-home"></li>
+              <li id="footer-tw"></li>
+            </ul>
+          </nav>
+        </div>
+        <p id="copyright">
+          <small>Copyright @ 2021 AK Project. </small>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+      var toppage = document.getElementById("toppage");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 500 ||
+          document.documentElement.scrollTop > 500 ) {
+          toppage.style.display = "block";
+        } else {
+          toppage.style.display = "none";
+        }
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

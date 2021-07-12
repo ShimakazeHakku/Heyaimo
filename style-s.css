@@ -1,0 +1,228 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-image: url(img/main-bg.jpg);
+	background-repeat: repeat;
+	background-position: top center;
+	background-color: #eee;
+	display: block;
+	font-family:Asap Condensed;
+	font-style: italic;
+	font-weight:bolder ;
+}
+.jumbotron {
+	background-image: url(img/header-story.png);
+	background-size: cover;
+	background-position: center;
+	width: 1237px;
+	height: 290px;
+	text-align: center;
+	margin-top: -150px;
+}
+#topBar {
+	position: absolute;
+	width: 100%;
+	min-width: 1000px;
+	height: 33px;
+	margin: 0 auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+	top: 0;
+	z-index: 10;
+}
+#bg {
+	position: absolute;
+	top: -150px;
+	right: 0;
+	left: 0;
+	content: "";
+	z-index: 1;
+	width: 100%;
+	min-width: 1000px;
+	height: 200px;
+	overflow: hidden;
+	transform: skewY(-3deg);
+	background-color: #ffbf00;
+	background-repeat: repeat;
+	background-position: top;
+}
+
+.header-nav {
+	position: relative;
+	top: 45px;
+	width: 803px;
+	margin-left: 40px;
+	display: block;
+}
+.header-nav a {
+	color: #a6a6a6;
+	font-size: 20px;
+	transition: transform .2s ease;
+}
+.header-nav a:hover {
+	color: #000032;
+	transition-property: transform;
+	transform: translateY(7px);
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+}
+.header-nav-wrap {
+	position: relative;
+	top: 35px;
+	width: 1000px;
+	height: 130px;
+	margin: -10px auto 0;
+	z-index: 1;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+#logo {
+	width: 197px;
+	padding-top: 35px;
+	padding-right: 2px;
+	box-sizing: border-box;
+}
+#logo a {
+	display: block;
+	width: 100px;
+	height: 70px;
+	text-align: center;
+	transition: transform 2s ease;
+	
+}
+#logo a:hover {	
+	transition-property: transform;
+	transform: translateY(7px);
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+}
+a {
+	background-color: transparent;
+}
+
+main {
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#story-wrap {
+	padding-top: 40px;
+	padding-left: 250px;
+	padding-right: 255px;
+	padding-bottom: 100px;
+}
+.str-area p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 2;
+	color: #000032;
+}
+.str-area h3 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 24px;
+	line-height: 2;
+	color: #000032;
+}
+.str-area img {
+	padding-top: 50px;
+}
+#toppage {
+	display: none;
+	position: fixed;
+	right: 20px;
+	z-index: 12;
+}
+#toppage a {
+	transition: 2s;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	opacity: .8;
+	background-color: transparent;
+}
+#toppage a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#toppage img {
+	border-style: none;
+}
+footer {
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: block;
+}
+.footer-inner {
+	position: relative;
+	height: 420px;
+	padding-top: 80px;
+	background-color: #ffbf00;
+	box-sizing: border-box;
+	display: block;
+}
+.footer-wrap {
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+#footer-nav {
+	width: 860px;
+	margin: 50px auto;
+	display: block;
+}
+#footer-nav ul {
+	font-size: .8125rem;
+	display: block;
+    list-style-type: none;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#footer-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: -webkit-match-parent;
+}
+.footer-nav-list {
+	display: inline-block;
+	color: #FFF;
+}
+.footer-nav-list a {
+	font-family: Open Sans;
+	text-decoration: none;
+	padding: 20px;
+	color: #FFF;
+	letter-spacing: 0.06em;
+	background-color: transparent;
+}
+#footer-ttl a {
+	padding-right: 18px;
+	font-size: .8125rem;
+	font-style: normal;
+}
+#footer-st, #footer-world, #footer-chara, #footer-gal {
+	border-left: 1px solid #FFF;
+	font-style: italic;
+}
+#copyright {
+	text-align: center;
+	font-style: normal;
+	color: #FFF;
+	font-size: 1rem;
+	letter-spacing: .05em;
+}
